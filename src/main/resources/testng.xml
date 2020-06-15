@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BGP Test Suite">
+	<!-- 	<listeners>
+	<listener class-name="com.bgp.listeners.ExtentReporterNG"></listener>
+	</listeners> -->
+	<test name="BGP Test Cases">
+		<classes>
+		<class name="com.bgp.testcases.EligibilityPageTest"></class>
+		<class name="com.bgp.testcases.ContactDetailsPageTest"></class>
+		<class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage"></class>
+		<class name="com.bgp.testcases.FormSubmission"></class>
+		</classes>
+	</test>
+</suite>

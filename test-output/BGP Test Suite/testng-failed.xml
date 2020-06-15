@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BGP Test Suite]">
+  <test thread-count="5" name="BGP Test Cases(failed)">
+    <classes>
+      <class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endReport"/>
+          <include name="setReporting"/>
+          <include name="getFormPages"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="verifyBackOnEligibiltyPage"/>
+        </methods>
+      </class> <!-- com.bgp.testcases.ReviewPageAndBacktoErrorPage -->
+    </classes>
+  </test> <!-- BGP Test Cases(failed) -->
+</suite> <!-- Failed suite [BGP Test Suite] -->
