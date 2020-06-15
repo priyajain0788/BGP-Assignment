@@ -49,7 +49,7 @@ public class ContactDetailsPageTest extends TestBase{
 		
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void verifySubSectionOfMainContactPerson(){
 		applicationFormContactDetailsPage = new ApplicationFormContactDetailsPage();
 		assertTrue(applicationFormContactDetailsPage.fillName().isDisplayed());
@@ -59,7 +59,7 @@ public class ContactDetailsPageTest extends TestBase{
 		assertTrue(applicationFormContactDetailsPage.checkMailingAddess().isDisplayed());
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void verifyCheckBoxSameAsAddressCompanyProfile(){
 		applicationFormContactDetailsPage = new ApplicationFormContactDetailsPage();
 		assertTrue("".equals(applicationFormContactDetailsPage.blockNumber()));
@@ -73,7 +73,7 @@ public class ContactDetailsPageTest extends TestBase{
 		assertTrue(!"".equals(applicationFormContactDetailsPage.unitNumber()));
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void verifySubSectionOfLetterOfAddressee(){
 		applicationFormContactDetailsPage = new ApplicationFormContactDetailsPage();
 		assertTrue(applicationFormContactDetailsPage.nameLoa().isDisplayed());
@@ -81,7 +81,7 @@ public class ContactDetailsPageTest extends TestBase{
 		assertTrue(applicationFormContactDetailsPage.emailLoa().isDisplayed());
 	}
 	
-	@Test(priority=4)
+	@Test
 	public void verifyCheckBoxSameAsMainContactPerson(){
 		applicationFormContactDetailsPage = new ApplicationFormContactDetailsPage();
 		applicationFormContactDetailsPage.copyContactDetails();
@@ -90,7 +90,7 @@ public class ContactDetailsPageTest extends TestBase{
 		assertEquals(applicationFormContactDetailsPage.emailLoa().getAttribute("value"), applicationFormContactDetailsPage.fillemailLocator().getAttribute("value"));
 	}
 	
-	@Test(priority=5)
+	@Test
 	public void verifySaveAndRefresh() throws InterruptedException{
 		applicationFormContactDetailsPage = new ApplicationFormContactDetailsPage();
 		applicationFormContactDetailsPage.fillName();

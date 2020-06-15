@@ -62,7 +62,7 @@ public class FormSubmission extends TestBase{
 		grantApplicationPage.clickProceed();
 	}
 	
-	@Test(priority=1)
+	/*@Test
 	public void verifyReadOnlySummeryPageDetails(){
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
 		applicationFormEligibilityPage.FillEligibilityForm();
@@ -137,8 +137,8 @@ public class FormSubmission extends TestBase{
 		assertEquals(driver.findElement(By.id("react-declaration-covid_safe_check")).getText(), "Yes");
 		assertEquals(driver.findElement(By.id("react-declaration-covid_safe_ques_check")).getText(), "Yes");
 	}
-	
-	@Test(priority=2)
+	*/
+	@Test
 	public void verifySubmittedFormAndProcessingTab(){
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
 		applicationFormEligibilityPage.FillEligibilityForm();
@@ -178,7 +178,13 @@ public class FormSubmission extends TestBase{
 		WebElement process = wait1.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(@href,'#processing')]")));
 		process.click();
 		
-		assertEquals(driver.findElement(By.xpath("//*[@id='db-apps-processing']/tbody/tr[1]/td[1]")).getText(), id);
+		try {
+			Thread.sleep(3000);
+			assertEquals(driver.findElement(By.xpath("//*[@id='db-apps-processing']/tbody/tr[1]/td[1]")).getText(), id);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		
 	}
 }

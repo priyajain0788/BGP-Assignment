@@ -58,7 +58,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		grantApplicationPage.clickProceed();
 	}
 
-	@Test(priority = 1)
+	@Test
 	public void verifyBackOnEligibiltyPage() {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
@@ -97,7 +97,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 	}
 
-	@Test(priority = 2)
+	@Test
 	public void verifyBackOnContactDetailsPage() {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
@@ -135,7 +135,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 	}
 
-	@Test(priority = 3)
+	@Test
 	public void verifyBackOnProposalPage() throws InterruptedException {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
@@ -166,7 +166,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		assertEquals(true, driver.findElement(By.xpath("//*[contains(text(),'Submit Your Proposal')]")).isDisplayed());
 	}
 
-	@Test(priority = 4)
+	@Test
 	public void verifyBackOnBIPage() {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
@@ -204,7 +204,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 	}
 
-	@Test(priority = 5)
+	@Test
 	public void verifyBackOnCostPage() {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
@@ -237,7 +237,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 	}
 
-	@Test(priority = 6)
+	@Test
 	public void verifyBackOnDeclarePage() {
 
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();

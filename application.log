@@ -3081,3 +3081,35 @@ The applicant has not signed any contractual agreement with any supplier, vendor
 2020-06-15 19:05:15,289  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
 2020-06-15 19:05:18,592  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
 2020-06-15 19:05:22,007  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true
+2020-06-15 19:21:17,581  INFO [main] ReviewPageAndBacktoErrorPage:88 - verify eligibility page : true
+2020-06-15 19:21:17,630  INFO [main] ReviewPageAndBacktoErrorPage:91 - error count : 2
+2020-06-15 19:21:17,636  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
+2020-06-15 19:22:15,458  INFO [main] EligibilityPageTest:74 - warning displayed 1: true
+2020-06-15 19:22:19,630  INFO [main] EligibilityPageTest:106 - warning displayed 2 : true
+2020-06-15 19:22:22,721  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
+2020-06-15 19:22:25,966  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
+2020-06-15 19:22:29,398  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true
+2020-06-15 19:38:08,932  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-15 19:38:09,256  INFO [main] FormSubmission:171 - Ref ID : 2006JJ6U
+2020-06-15 19:40:07,389  INFO [main] EligibilityPageTest:74 - warning displayed 1: true
+2020-06-15 19:40:10,739  INFO [main] EligibilityPageTest:106 - warning displayed 2 : true
+2020-06-15 19:40:13,694  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
+2020-06-15 19:40:16,846  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
+2020-06-15 19:40:20,217  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true
+2020-06-15 19:46:54,172  INFO [main] ReviewPageAndBacktoErrorPage:88 - verify eligibility page : true
+2020-06-15 19:46:54,195  INFO [main] ReviewPageAndBacktoErrorPage:91 - error count : 2
+2020-06-15 19:46:54,200  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
+2020-06-15 19:50:04,180  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-15 19:50:04,405  INFO [main] FormSubmission:171 - Ref ID : 200629Q9
+2020-06-15 19:53:40,523  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-15 19:53:40,740  INFO [main] FormSubmission:171 - Ref ID : 200637WD
+2020-06-15 19:56:46,004  INFO [main] EligibilityPageTest:74 - warning displayed 1: true
+2020-06-15 19:56:49,402  INFO [main] EligibilityPageTest:106 - warning displayed 2 : true
+2020-06-15 19:56:52,555  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
+2020-06-15 19:56:55,728  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
+2020-06-15 19:56:58,943  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true
+2020-06-15 20:03:43,117  INFO [main] ReviewPageAndBacktoErrorPage:88 - verify eligibility page : true
+2020-06-15 20:03:43,167  INFO [main] ReviewPageAndBacktoErrorPage:91 - error count : 2
+2020-06-15 20:03:43,182  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
+2020-06-15 20:05:53,271  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-15 20:05:53,492  INFO [main] FormSubmission:171 - Ref ID : 2006X5Z5

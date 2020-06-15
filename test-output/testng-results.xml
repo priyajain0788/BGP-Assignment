@@ -1,56 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="BGP Test Suite" duration-ms="303488" started-at="2020-06-15T11:00:22Z" finished-at="2020-06-15T11:05:26Z">
+  <suite name="BGP Test Suite" duration-ms="618135" started-at="2020-06-15T11:55:43Z" finished-at="2020-06-15T12:06:01Z">
     <groups>
     </groups>
-    <test name="BGP Test Cases" duration-ms="303488" started-at="2020-06-15T11:00:22Z" finished-at="2020-06-15T11:05:26Z">
+    <test name="BGP Test Cases" duration-ms="618135" started-at="2020-06-15T11:55:43Z" finished-at="2020-06-15T12:06:01Z">
       <class name="com.bgp.testcases.EligibilityPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="setUp" is-config="true" duration-ms="242" started-at="2020-06-15T11:00:22Z" finished-at="2020-06-15T11:00:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="14500" started-at="2020-06-15T11:00:22Z" finished-at="2020-06-15T11:00:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="beforeMethod" is-config="true" duration-ms="13979" started-at="2020-06-15T11:55:43Z" finished-at="2020-06-15T11:55:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="31124" started-at="2020-06-15T11:00:37Z" finished-at="2020-06-15T11:01:08Z">
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="getFormPages" is-config="true" duration-ms="8288" started-at="2020-06-15T11:55:57Z" finished-at="2020-06-15T11:56:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFormPages -->
-        <test-method status="PASS" signature="verifyAllQuestionsAvailable()[pri:1, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="verifyAllQuestionsAvailable" duration-ms="977" started-at="2020-06-15T11:01:08Z" finished-at="2020-06-15T11:01:09Z">
+        <test-method status="PASS" signature="verifyAllQuestionsAvailable()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="verifyAllQuestionsAvailable" duration-ms="973" started-at="2020-06-15T11:56:05Z" finished-at="2020-06-15T11:56:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllQuestionsAvailable -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="677" started-at="2020-06-15T11:01:09Z" finished-at="2020-06-15T11:01:09Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="afterMethod" is-config="true" duration-ms="841" started-at="2020-06-15T11:56:06Z" finished-at="2020-06-15T11:56:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllQuestionsAvailable status=SUCCESS method=EligibilityPageTest.verifyAllQuestionsAvailable()[pri:1, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllQuestionsAvailable status=SUCCESS method=EligibilityPageTest.verifyAllQuestionsAvailable()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="9246" started-at="2020-06-15T11:04:27Z" finished-at="2020-06-15T11:04:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="beforeMethod" is-config="true" duration-ms="9929" started-at="2020-06-15T11:56:07Z" finished-at="2020-06-15T11:56:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="30627" started-at="2020-06-15T11:04:36Z" finished-at="2020-06-15T11:05:07Z">
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="getFormPages" is-config="true" duration-ms="7360" started-at="2020-06-15T11:56:17Z" finished-at="2020-06-15T11:56:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFormPages -->
-        <test-method status="PASS" signature="verifyWarningMsgForAllQuestions()[pri:2, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="verifyWarningMsgForAllQuestions" duration-ms="17954" started-at="2020-06-15T11:05:07Z" finished-at="2020-06-15T11:05:25Z">
+        <test-method status="PASS" signature="verifySaveAndRefreshPage()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="verifySaveAndRefreshPage" duration-ms="3169" started-at="2020-06-15T11:56:24Z" finished-at="2020-06-15T11:56:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWarningMsgForAllQuestions -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="712" started-at="2020-06-15T11:05:25Z" finished-at="2020-06-15T11:05:26Z">
+        </test-method> <!-- verifySaveAndRefreshPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="afterMethod" is-config="true" duration-ms="716" started-at="2020-06-15T11:56:27Z" finished-at="2020-06-15T11:56:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyWarningMsgForAllQuestions status=SUCCESS method=EligibilityPageTest.verifyWarningMsgForAllQuestions()[pri:2, instance:com.bgp.testcases.EligibilityPageTest@1d16f93d] output={null}]]]>
+                <![CDATA[[TestResult name=verifySaveAndRefreshPage status=SUCCESS method=EligibilityPageTest.verifySaveAndRefreshPage()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="beforeMethod" is-config="true" duration-ms="8688" started-at="2020-06-15T11:56:28Z" finished-at="2020-06-15T11:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="getFormPages" is-config="true" duration-ms="7999" started-at="2020-06-15T11:56:37Z" finished-at="2020-06-15T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyWarningMsgForAllQuestions()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="verifyWarningMsgForAllQuestions" duration-ms="16979" started-at="2020-06-15T11:56:45Z" finished-at="2020-06-15T11:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWarningMsgForAllQuestions -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee]" name="afterMethod" is-config="true" duration-ms="713" started-at="2020-06-15T11:57:02Z" finished-at="2020-06-15T11:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWarningMsgForAllQuestions status=SUCCESS method=EligibilityPageTest.verifyWarningMsgForAllQuestions()[pri:0, instance:com.bgp.testcases.EligibilityPageTest@6325a3ee] output={null}]]]>
               </value>
             </param>
           </params>
@@ -59,23 +78,115 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.bgp.testcases.EligibilityPageTest -->
       <class name="com.bgp.testcases.ContactDetailsPageTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="9253" started-at="2020-06-15T11:01:09Z" finished-at="2020-06-15T11:01:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="9179" started-at="2020-06-15T11:57:02Z" finished-at="2020-06-15T11:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@67b92f0a]" name="getFormPages" is-config="true" duration-ms="28623" started-at="2020-06-15T11:01:19Z" finished-at="2020-06-15T11:01:47Z">
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="9103" started-at="2020-06-15T11:57:12Z" finished-at="2020-06-15T11:57:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFormPages -->
-        <test-method status="PASS" signature="verifySubSectionOfMainContactPerson()[pri:1, instance:com.bgp.testcases.ContactDetailsPageTest@67b92f0a]" name="verifySubSectionOfMainContactPerson" duration-ms="2384" started-at="2020-06-15T11:01:47Z" finished-at="2020-06-15T11:01:50Z">
+        <test-method status="PASS" signature="verifyCheckBoxSameAsAddressCompanyProfile()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="verifyCheckBoxSameAsAddressCompanyProfile" duration-ms="774" started-at="2020-06-15T11:57:21Z" finished-at="2020-06-15T11:57:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySubSectionOfMainContactPerson -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@67b92f0a]" name="afterMethod" is-config="true" duration-ms="673" started-at="2020-06-15T11:01:50Z" finished-at="2020-06-15T11:01:50Z">
+        </test-method> <!-- verifyCheckBoxSameAsAddressCompanyProfile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="675" started-at="2020-06-15T11:57:21Z" finished-at="2020-06-15T11:57:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySubSectionOfMainContactPerson status=SUCCESS method=ContactDetailsPageTest.verifySubSectionOfMainContactPerson()[pri:1, instance:com.bgp.testcases.ContactDetailsPageTest@67b92f0a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCheckBoxSameAsAddressCompanyProfile status=SUCCESS method=ContactDetailsPageTest.verifyCheckBoxSameAsAddressCompanyProfile()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="8062" started-at="2020-06-15T11:57:22Z" finished-at="2020-06-15T11:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="9313" started-at="2020-06-15T11:57:30Z" finished-at="2020-06-15T11:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyCheckBoxSameAsMainContactPerson()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="verifyCheckBoxSameAsMainContactPerson" duration-ms="797" started-at="2020-06-15T11:57:40Z" finished-at="2020-06-15T11:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBoxSameAsMainContactPerson -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="733" started-at="2020-06-15T11:57:40Z" finished-at="2020-06-15T11:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckBoxSameAsMainContactPerson status=SUCCESS method=ContactDetailsPageTest.verifyCheckBoxSameAsMainContactPerson()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="8317" started-at="2020-06-15T11:57:41Z" finished-at="2020-06-15T11:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="8763" started-at="2020-06-15T11:57:49Z" finished-at="2020-06-15T11:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifySaveAndRefresh()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="verifySaveAndRefresh" duration-ms="3517" started-at="2020-06-15T11:57:58Z" finished-at="2020-06-15T11:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveAndRefresh -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="672" started-at="2020-06-15T11:58:02Z" finished-at="2020-06-15T11:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySaveAndRefresh status=SUCCESS method=ContactDetailsPageTest.verifySaveAndRefresh()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="7796" started-at="2020-06-15T11:58:02Z" finished-at="2020-06-15T11:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="9412" started-at="2020-06-15T11:58:10Z" finished-at="2020-06-15T11:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifySubSectionOfLetterOfAddressee()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="verifySubSectionOfLetterOfAddressee" duration-ms="556" started-at="2020-06-15T11:58:20Z" finished-at="2020-06-15T11:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubSectionOfLetterOfAddressee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="732" started-at="2020-06-15T11:58:20Z" finished-at="2020-06-15T11:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubSectionOfLetterOfAddressee status=SUCCESS method=ContactDetailsPageTest.verifySubSectionOfLetterOfAddressee()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="beforeMethod" is-config="true" duration-ms="10296" started-at="2020-06-15T11:58:21Z" finished-at="2020-06-15T11:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="getFormPages" is-config="true" duration-ms="9612" started-at="2020-06-15T11:58:31Z" finished-at="2020-06-15T11:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifySubSectionOfMainContactPerson()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="verifySubSectionOfMainContactPerson" duration-ms="2392" started-at="2020-06-15T11:58:41Z" finished-at="2020-06-15T11:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubSectionOfMainContactPerson -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d]" name="afterMethod" is-config="true" duration-ms="671" started-at="2020-06-15T11:58:43Z" finished-at="2020-06-15T11:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubSectionOfMainContactPerson status=SUCCESS method=ContactDetailsPageTest.verifySubSectionOfMainContactPerson()[pri:0, instance:com.bgp.testcases.ContactDetailsPageTest@1d16f93d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -83,49 +194,139 @@
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.bgp.testcases.ContactDetailsPageTest -->
-      <class name="com.bgp.testcases.FormSubmission">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.FormSubmission@65e2dbf3]" name="beforeMethod" is-config="true" duration-ms="10693" started-at="2020-06-15T11:03:13Z" finished-at="2020-06-15T11:03:24Z">
+      <class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="7631" started-at="2020-06-15T11:58:44Z" finished-at="2020-06-15T11:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.FormSubmission@65e2dbf3]" name="getFormPages" is-config="true" duration-ms="25878" started-at="2020-06-15T11:03:24Z" finished-at="2020-06-15T11:03:50Z">
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="8952" started-at="2020-06-15T11:58:51Z" finished-at="2020-06-15T11:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFormPages -->
-        <test-method status="PASS" signature="verifyReadOnlySummeryPageDetails()[pri:1, instance:com.bgp.testcases.FormSubmission@65e2dbf3]" name="verifyReadOnlySummeryPageDetails" duration-ms="36481" started-at="2020-06-15T11:03:50Z" finished-at="2020-06-15T11:04:26Z">
+        <test-method status="PASS" signature="verifyBackOnBIPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnBIPage" duration-ms="50433" started-at="2020-06-15T11:59:00Z" finished-at="2020-06-15T11:59:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyReadOnlySummeryPageDetails -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.FormSubmission@65e2dbf3]" name="afterMethod" is-config="true" duration-ms="679" started-at="2020-06-15T11:04:26Z" finished-at="2020-06-15T11:04:27Z">
+        </test-method> <!-- verifyBackOnBIPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="716" started-at="2020-06-15T11:59:51Z" finished-at="2020-06-15T11:59:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyReadOnlySummeryPageDetails status=SUCCESS method=FormSubmission.verifyReadOnlySummeryPageDetails()[pri:1, instance:com.bgp.testcases.FormSubmission@65e2dbf3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBackOnBIPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnBIPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.bgp.testcases.FormSubmission -->
-      <class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@2b9627bc]" name="beforeMethod" is-config="true" duration-ms="9179" started-at="2020-06-15T11:01:50Z" finished-at="2020-06-15T11:01:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="9036" started-at="2020-06-15T11:59:52Z" finished-at="2020-06-15T12:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@2b9627bc]" name="getFormPages" is-config="true" duration-ms="26994" started-at="2020-06-15T11:01:59Z" finished-at="2020-06-15T11:02:26Z">
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="11492" started-at="2020-06-15T12:00:01Z" finished-at="2020-06-15T12:00:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFormPages -->
-        <test-method status="PASS" signature="verifyBackOnEligibiltyPage()[pri:1, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@2b9627bc]" name="verifyBackOnEligibiltyPage" duration-ms="46047" started-at="2020-06-15T11:02:26Z" finished-at="2020-06-15T11:03:13Z">
+        <test-method status="PASS" signature="verifyBackOnContactDetailsPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnContactDetailsPage" duration-ms="44675" started-at="2020-06-15T12:00:12Z" finished-at="2020-06-15T12:00:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBackOnEligibiltyPage -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@2b9627bc]" name="afterMethod" is-config="true" duration-ms="742" started-at="2020-06-15T11:03:13Z" finished-at="2020-06-15T11:03:13Z">
+        </test-method> <!-- verifyBackOnContactDetailsPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="718" started-at="2020-06-15T12:00:57Z" finished-at="2020-06-15T12:00:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyBackOnEligibiltyPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnEligibiltyPage()[pri:1, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@2b9627bc] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBackOnContactDetailsPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnContactDetailsPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="9337" started-at="2020-06-15T12:00:57Z" finished-at="2020-06-15T12:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="7656" started-at="2020-06-15T12:01:07Z" finished-at="2020-06-15T12:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyBackOnCostPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnCostPage" duration-ms="29460" started-at="2020-06-15T12:01:14Z" finished-at="2020-06-15T12:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackOnCostPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="718" started-at="2020-06-15T12:01:44Z" finished-at="2020-06-15T12:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackOnCostPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnCostPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="8187" started-at="2020-06-15T12:01:45Z" finished-at="2020-06-15T12:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="7392" started-at="2020-06-15T12:01:53Z" finished-at="2020-06-15T12:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyBackOnDeclarePage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnDeclarePage" duration-ms="41958" started-at="2020-06-15T12:02:00Z" finished-at="2020-06-15T12:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackOnDeclarePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="700" started-at="2020-06-15T12:02:42Z" finished-at="2020-06-15T12:02:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackOnDeclarePage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnDeclarePage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="8439" started-at="2020-06-15T12:02:43Z" finished-at="2020-06-15T12:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="7920" started-at="2020-06-15T12:02:51Z" finished-at="2020-06-15T12:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyBackOnEligibiltyPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnEligibiltyPage" duration-ms="43509" started-at="2020-06-15T12:02:59Z" finished-at="2020-06-15T12:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackOnEligibiltyPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="696" started-at="2020-06-15T12:03:43Z" finished-at="2020-06-15T12:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackOnEligibiltyPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnEligibiltyPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="beforeMethod" is-config="true" duration-ms="8915" started-at="2020-06-15T12:03:43Z" finished-at="2020-06-15T12:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="getFormPages" is-config="true" duration-ms="7889" started-at="2020-06-15T12:03:52Z" finished-at="2020-06-15T12:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifyBackOnProposalPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="verifyBackOnProposalPage" duration-ms="43732" started-at="2020-06-15T12:04:00Z" finished-at="2020-06-15T12:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackOnProposalPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a]" name="afterMethod" is-config="true" duration-ms="716" started-at="2020-06-15T12:04:44Z" finished-at="2020-06-15T12:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBackOnProposalPage status=SUCCESS method=ReviewPageAndBacktoErrorPage.verifyBackOnProposalPage()[pri:0, instance:com.bgp.testcases.ReviewPageAndBacktoErrorPage@67b92f0a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -133,6 +334,31 @@
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.bgp.testcases.ReviewPageAndBacktoErrorPage -->
+      <class name="com.bgp.testcases.FormSubmission">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bgp.testcases.FormSubmission@2b9627bc]" name="beforeMethod" is-config="true" duration-ms="8072" started-at="2020-06-15T12:04:45Z" finished-at="2020-06-15T12:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getFormPages()[pri:0, instance:com.bgp.testcases.FormSubmission@2b9627bc]" name="getFormPages" is-config="true" duration-ms="7436" started-at="2020-06-15T12:04:53Z" finished-at="2020-06-15T12:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFormPages -->
+        <test-method status="PASS" signature="verifySubmittedFormAndProcessingTab()[pri:0, instance:com.bgp.testcases.FormSubmission@2b9627bc]" name="verifySubmittedFormAndProcessingTab" duration-ms="59954" started-at="2020-06-15T12:05:00Z" finished-at="2020-06-15T12:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmittedFormAndProcessingTab -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bgp.testcases.FormSubmission@2b9627bc]" name="afterMethod" is-config="true" duration-ms="729" started-at="2020-06-15T12:06:00Z" finished-at="2020-06-15T12:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubmittedFormAndProcessingTab status=SUCCESS method=FormSubmission.verifySubmittedFormAndProcessingTab()[pri:0, instance:com.bgp.testcases.FormSubmission@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bgp.testcases.FormSubmission -->
     </test> <!-- BGP Test Cases -->
   </suite> <!-- BGP Test Suite -->
 </testng-results>

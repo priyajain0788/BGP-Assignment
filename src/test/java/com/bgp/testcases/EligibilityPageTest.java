@@ -47,7 +47,7 @@ public class EligibilityPageTest  extends TestBase{
 		grantApplicationPage.clickProceed();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void verifyAllQuestionsAvailable() {
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
 		String firstQ = applicationFormEligibilityPage.firstQuest();
@@ -64,7 +64,7 @@ public class EligibilityPageTest  extends TestBase{
 		
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void verifyWarningMsgForAllQuestions() {
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
 		// first ques for No
@@ -217,7 +217,7 @@ public class EligibilityPageTest  extends TestBase{
 		assertTrue(applicationFormEligibilityPage.selectFifthQuesY().isSelected());
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void verifySaveAndRefreshPage() {
 		applicationFormEligibilityPage = new ApplicationFormEligibilityPage();
 		applicationFormEligibilityPage.selectFirstQuestY();
@@ -238,7 +238,6 @@ public class EligibilityPageTest  extends TestBase{
 		assertTrue(applicationFormEligibilityPage.selectThirdQuesY().isSelected());
 		assertTrue(applicationFormEligibilityPage.selectFourthQuesY().isSelected());
 		assertTrue(applicationFormEligibilityPage.selectFifthQuesY().isSelected());
-		
 	}
 	
 }

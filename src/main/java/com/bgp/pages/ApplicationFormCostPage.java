@@ -16,10 +16,10 @@ public class ApplicationFormCostPage extends TestBase {
 
 	Logger log = Logger.getLogger(ApplicationFormCostPage.class);
 
-	/*
-	 * @FindBy(xpath = "//*[contains(text(),'Third Party Vendors')]") WebElement
-	 * thirdPartyVendor;
-	 */
+	
+	 @FindBy(xpath = "//*[contains(text(),'Third Party Vendors')]") 
+	 WebElement thirdPartyVendor;
+	 
 
 	@FindBy(id = "react-project_cost-vendors-add-item")
 	WebElement addNewItem;
@@ -47,11 +47,13 @@ public class ApplicationFormCostPage extends TestBase {
 	}
 
 	public void fillThirdPartyVendor() {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		WebElement tpv = wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Third Party Vendors')]")));
-		tpv.click();
-
+		try {
+			Thread.sleep(10000);
+			thirdPartyVendor.click();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 	public void selectAddNewItem() {
