@@ -3073,3 +3073,11 @@ The applicant has not signed any contractual agreement with any supplier, vendor
 2020-06-15 18:01:10,492  INFO [main] FormSubmission:171 - Ref ID : 2006K8GA
 2020-06-15 18:10:10,398  INFO [main] FormSubmission:165 - Your application has been submitted.
 2020-06-15 18:10:10,601  INFO [main] FormSubmission:171 - Ref ID : 200635WQ
+2020-06-15 19:03:12,924  INFO [main] ReviewPageAndBacktoErrorPage:88 - verify eligibility page : true
+2020-06-15 19:03:12,965  INFO [main] ReviewPageAndBacktoErrorPage:91 - error count : 2
+2020-06-15 19:03:12,973  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
+2020-06-15 19:05:08,309  INFO [main] EligibilityPageTest:74 - warning displayed 1: true
+2020-06-15 19:05:12,264  INFO [main] EligibilityPageTest:106 - warning displayed 2 : true
+2020-06-15 19:05:15,289  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
+2020-06-15 19:05:18,592  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
+2020-06-15 19:05:22,007  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true

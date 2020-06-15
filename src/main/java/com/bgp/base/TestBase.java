@@ -53,9 +53,9 @@ public class TestBase {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driverUtil = new DriverUtil();
 		driver = driverUtil.launchDriver(prop.getProperty("browser"));
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver = driverUtil.launchUrl(driver);
 	}
 
@@ -64,15 +64,4 @@ public class TestBase {
 		driverUtil.closeDriver();
 	}
 
-	@BeforeTest
-	public void setReporting() {
-		
-
-	}
-
-	@AfterSuite
-	public void endReport() {		
-		
-
-	}
 }

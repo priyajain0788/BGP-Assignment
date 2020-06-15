@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BGP Test Suite]">
+  <test thread-count="5" name="BGP Test Cases(failed)">
     <classes>
-      <class name="com.bgp.testcases.FormSubmission">
+      <class name="com.bgp.testcases.EligibilityPageTest">
         <methods>
           <include name="getFormPages"/>
           <include name="beforeMethod"/>
           <include name="endReport"/>
+          <include name="verifyWarningMsgForAllQuestions"/>
           <include name="setReporting"/>
-          <include name="verifySubmittedFormAndProcessingTab"/>
-          <include name="setUp"/>
           <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="verifyAllQuestionsAvailable"/>
+        </methods>
+      </class> <!-- com.bgp.testcases.EligibilityPageTest -->
+      <class name="com.bgp.testcases.FormSubmission">
+        <methods>
+          <include name="verifyReadOnlySummeryPageDetails"/>
+          <include name="getFormPages"/>
+          <include name="beforeMethod"/>
+          <include name="endReport"/>
+          <include name="setReporting"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.bgp.testcases.FormSubmission -->
+      <class name="com.bgp.testcases.ContactDetailsPageTest">
+        <methods>
+          <include name="verifySubSectionOfMainContactPerson"/>
+          <include name="beforeMethod"/>
+          <include name="endReport"/>
+          <include name="setReporting"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="getFormPages"/>
+        </methods>
+      </class> <!-- com.bgp.testcases.ContactDetailsPageTest -->
+      <class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endReport"/>
+          <include name="setReporting"/>
+          <include name="getFormPages"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="verifyBackOnEligibiltyPage"/>
+        </methods>
+      </class> <!-- com.bgp.testcases.ReviewPageAndBacktoErrorPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BGP Test Cases(failed) -->
+</suite> <!-- Failed suite [BGP Test Suite] -->
