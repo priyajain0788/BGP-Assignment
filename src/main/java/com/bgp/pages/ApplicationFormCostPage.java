@@ -68,9 +68,15 @@ public class ApplicationFormCostPage extends TestBase {
 		WebElement vName = driver.findElement(By.id("react-project_cost-vendors-0-vendor_name"));
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		vName = wait.until(ExpectedConditions.elementToBeClickable(vName));
-		vName.clear();
-		vName.sendKeys("Testing");
-		wait.until(ExpectedConditions.textToBePresentInElementValue(vName, "Testing"));
+		//vName.clear();
+		try {
+			Thread.sleep(2000);
+			vName.sendKeys("Testing");
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		//wait.until(ExpectedConditions.textToBePresentInElementValue(vName, "Testing"));
 	}
 
 	public void uploadSupportingDoc() {

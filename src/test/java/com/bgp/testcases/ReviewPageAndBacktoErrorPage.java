@@ -7,6 +7,8 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -91,9 +93,11 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		log.info("error count : " + count.size());
 		log.info("get error page title : " + driver.getTitle());
 
-		assertEquals(true,
-				driver.findElement(By.xpath("//*[contains(text(),'Check Your Eligibility')]")).isDisplayed());
-		assertEquals(driver.findElements(By.xpath("//*[contains(text(),'Select an option')]")).size(), 2);
+		String count1 = driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText();
+		log.info("Count : " +count1);
+		
+		assertEquals(true, driver.findElement(By.xpath("//*[contains(text(),'Check Your Eligibility')]")).isDisplayed());
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "2");
 
 	}
 
@@ -132,6 +136,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 		assertEquals(true,
 				driver.findElement(By.xpath("//*[contains(text(),'Provide Your Contact Details')]")).isDisplayed());
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "2");
 
 	}
 
@@ -148,6 +153,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		// formProposalPage.fillProjectTitle();
 		formProposalPage.fillStartDate();
 		formProposalPage.fillEndDate();
+		formProposalPage.fillProjectDesc();
 		formProposalPage.fillActivity();
 		formProposalPage.fillTargetMarket();
 		formProposalPage.fillIsFirsttimeIntoMOS();
@@ -164,6 +170,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		formDeclarePage.fillDeclareformPage();
 
 		assertEquals(true, driver.findElement(By.xpath("//*[contains(text(),'Submit Your Proposal')]")).isDisplayed());
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "1");
 	}
 
 	@Test
@@ -201,6 +208,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 		assertEquals(true,
 				driver.findElement(By.xpath("//*[contains(text(),'Explain The Business Impact')]")).isDisplayed());
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "1");
 
 	}
 
@@ -234,6 +242,7 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 
 		assertEquals(true,
 				driver.findElement(By.xpath("//*[contains(text(),'Provide Details of Costs')]")).isDisplayed());
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "1");
 
 	}
 
@@ -256,13 +265,21 @@ public class ReviewPageAndBacktoErrorPage extends TestBase {
 		formCostPage.fillCostPageForm();
 
 		formDeclarePage = new ApplicationFormDeclarePage();
-		// formDeclarePage.selectanswers();
+		//formDeclarePage.selectanswers();
 		formDeclarePage.checkAcknowledge();
 		formDeclarePage.save();
+		
+		driver.navigate().refresh();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.alertIsPresent());
+		driver.switchTo().alert().accept();
 		formDeclarePage.review();
 
 		assertEquals(true,
 				driver.findElement(By.xpath("//*[contains(text(),'Declare & Acknowledge Terms')]")).isDisplayed());
 
+		assertEquals(driver.findElement(By.xpath("//span[contains(@class,'label label-error')]")).getText(), "9");
+		
 	}
 }

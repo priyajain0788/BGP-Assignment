@@ -3,17 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bgp.testcases.FormSubmission">
+      <class name="com.bgp.testcases.ReviewPageAndBacktoErrorPage">
         <methods>
-          <include name="getFormPages"/>
           <include name="beforeMethod"/>
-          <include name="endReport"/>
-          <include name="setReporting"/>
-          <include name="verifySubmittedFormAndProcessingTab"/>
-          <include name="setUp"/>
+          <include name="verifyBackOnDeclarePage"/>
+          <include name="getFormPages"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.bgp.testcases.FormSubmission -->
+      </class> <!-- com.bgp.testcases.ReviewPageAndBacktoErrorPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

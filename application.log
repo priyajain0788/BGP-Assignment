@@ -3113,3 +3113,20 @@ The applicant has not signed any contractual agreement with any supplier, vendor
 2020-06-15 20:03:43,182  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
 2020-06-15 20:05:53,271  INFO [main] FormSubmission:165 - Your application has been submitted.
 2020-06-15 20:05:53,492  INFO [main] FormSubmission:171 - Ref ID : 2006X5Z5
+2020-06-16 14:27:52,326  INFO [main] ReviewPageAndBacktoErrorPage:88 - verify eligibility page : true
+2020-06-16 14:27:52,450  INFO [main] ReviewPageAndBacktoErrorPage:91 - error count : 2
+2020-06-16 14:27:52,458  INFO [main] ReviewPageAndBacktoErrorPage:92 - get error page title : Business Grants Portal
+2020-06-16 14:27:52,494  INFO [main] ReviewPageAndBacktoErrorPage:95 - Count : 2
+2020-06-16 15:01:39,698  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-16 15:01:39,988  INFO [main] FormSubmission:171 - Ref ID : 2006C7WC
+2020-06-16 15:31:02,336  INFO [main] EligibilityPageTest:74 - warning displayed 1: true
+2020-06-16 15:31:06,809  INFO [main] EligibilityPageTest:106 - warning displayed 2 : true
+2020-06-16 15:31:09,847  INFO [main] EligibilityPageTest:136 - warning displayed 3 : true
+2020-06-16 15:31:12,909  INFO [main] EligibilityPageTest:165 - warning displayed 4 : true
+2020-06-16 15:31:16,346  INFO [main] EligibilityPageTest:194 - warning displayed 5 : true
+2020-06-16 15:38:24,331  INFO [main] ReviewPageAndBacktoErrorPage:90 - verify eligibility page : true
+2020-06-16 15:38:24,355  INFO [main] ReviewPageAndBacktoErrorPage:93 - error count : 2
+2020-06-16 15:38:24,363  INFO [main] ReviewPageAndBacktoErrorPage:94 - get error page title : Business Grants Portal
+2020-06-16 15:38:24,399  INFO [main] ReviewPageAndBacktoErrorPage:97 - Count : 2
+2020-06-16 15:42:00,423  INFO [main] FormSubmission:165 - Your application has been submitted.
+2020-06-16 15:42:00,840  INFO [main] FormSubmission:171 - Ref ID : 20062DE6

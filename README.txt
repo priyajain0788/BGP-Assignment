@@ -15,7 +15,7 @@ Selenium WebDriver
 testNG 6.14.3 Maven dependencies added to POM.xml
 SikuliX - for file uploading 
 Maven 4.0.0
-GIT - Local git repo
+GIT 
 log4j 
 Properties
 
